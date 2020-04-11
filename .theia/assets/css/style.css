@@ -1,0 +1,110 @@
+header{
+    margin:0;
+}
+body{
+    margin:0;
+}
+/*-------------------------------Pictures--------------------------*/
+
+.logo {
+    background: url("../images/energie_big.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20px; 
+    left:60px;
+    height:200px;
+    width:600px;  
+        }
+.pic {
+    background: url("../images/gym.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom:70px;
+    max-width:1200px;
+    max-height:400px;
+    height: 500px;
+    width:1200px;
+    
+    }
+
+#menu{
+    margin-left:600px;
+    margin-right:100px;
+    margin-top:75px;
+    font-size:110%;
+    list-style-type: none;
+    text-decoration:none;
+    letter-spacing:4px;
+    font-weight:500;
+        }
+
+#menu li{
+    float:right;
+    margin-right:25px;
+}
+#menu ul li{
+    letter-spacing:4px;
+        }
+
+ul li a{
+     color:black;
+     font-weight:600px;
+    }
+
+.heading h4 {
+    margin-top:50px;
+    margin-left: 100px;
+    font-weight:600;
+    }
+
+.heading h5{
+    margin-left:150px;
+    top-margin:200px;
+}
+
+.bottom-detail{
+    margin-left:40px;
+}
+.bottom-detail div{
+   color: #fafafa;
+   background-color: rgba(0,0,0,.6);
+   width: 19%;
+   height: 200px;
+   float: left;
+   padding: 20px 0 0 10px;
+   text-align: center;
+   margin: 2px;
+   bottom-margin:20px;
+    }
+
+   div h3{
+       font-size:20px;
+   }
+   .social-links i {
+    font-size: 400%;
+    margin: 0px;
+    padding: 5%;
+    color: #fafafa;
+}
+/* ---------------------CLASSES-------------------------------------*/
+.head-desc{
+    top-margin:300px;
+    
+}
+.left-desc{
+    margin-left: 100px;
+}
+.pool{
+    background: url("../images/SWIMMING.png");
+    float:right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 600px;
+    max-width:300px;
+    max-height:300px;
+    }
+    /* ---------------------CLASSES-------------------------------------*/

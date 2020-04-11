@@ -90,21 +90,57 @@ ul li a{
     color: #fafafa;
 }
 /* ---------------------CLASSES-------------------------------------*/
-.head-desc{
-    top-margin:300px;
-    
-}
-.left-desc{
-    margin-left: 100px;
-}
-.pool{
-    background: url("../images/SWIMMING.png");
-    float:right;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 600px;
-    max-width:300px;
-    max-height:300px;
+.classes-info{
+    height:100px;
     }
-    /* ---------------------CLASSES-------------------------------------*/
+.classes-heading-desc{
+    margin-top:80px;
+   }
+.left-desc{
+    margin-top:50px;
+    width:50%;
+    float:left;
+}
+.left-desc li{
+    margin-left: 100px;
+    text-align:left;
+    letter-spacing: 2px;
+}
+.right-desc{
+    width:50%;
+    float:right;
+ }
+.right-desc li{
+    text-align:left;
+    margin-right: 100px;
+    letter-spacing: 2px;
+}
+/* ---------------------CLASSES-------------------------------------*/
+/--------------------------Classes Images----------------------------*/
+.image-area{
+    margin-left:0px;
+    padding:0px;
+    max-width:800px;
+    max-height:300px;
+    width: 800px;
+    height:300px;
+}
+
+.pool{
+    background: url("../images/swimming.png");
+    max-width:500px;
+    max-height:500px;
+    width:100%;
+    height:auto;
+          }
+    
+/--------------------------Classes Images----------------------------*/
+
+/* ---------------------Footer-------------------------------------*/
+footer{
+    height: 100px;
+}
+list-inline{
+    display:inline;
+}
+/* ---------------------Footer-------------------------------------*/

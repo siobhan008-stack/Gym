@@ -95,8 +95,8 @@ ul li a{
     }
 .classes-heading-desc{
     margin-top:80px;
-    letter-spacing:4px;
-   }
+    margin-left:100px;
+    }
 .left-desc{
     margin-top:50px;
     width:50%;
@@ -119,6 +119,7 @@ ul li a{
 /* ---------------------CLASSES-------------------------------------*/
 /--------------------------Classes Images----------------------------*/
 
+/*
 .male-swimming{
     float:right;
     background: url("../images/male_swimming.png");
@@ -127,12 +128,14 @@ ul li a{
     width:100%;
     height:auto;
     }
+    */
 .pool{
     background: url("../images/swimming.png");
     max-width:500px;
     max-height:500px;
     width:100%;
     height:auto;
+    margin-left:200px;
           }
 
 .kids{
@@ -141,10 +144,88 @@ ul li a{
     max-height:500px;
     width:100%;
     height:auto;
+     margin-left:200px;
           }
 /--------------------------Classes Images----------------------------*/
 
-/* ---------------------Footer-------------------------------------*/
+
+
+
+/* --------------------------Membership----------------------------*/
+.mem-settings{
+   margin-top:200px;
+}
+
+.mem-header{
+  margin-left:100px;
+   margin-right:100px;
+   font-weight:600;
+    
+}
+.mem-price{
+    margin-left:100px;
+   margin-right:100px;
+   color: green;  
+      }
+
+.mem-info{
+   margin-left:100px;
+   margin-right:100px;
+}
+
+/--------------------------Membership----------------------------*/
+
+/--------------------------Timetable----------------------------*/
+ table {
+    margin-left:100px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/--------------------------Timetable----------------------------*/
+
+
+/* ---------------------Gym-------------------------------------*/
+
+.man-running-gym{
+    background: url("../images/man_running_gym.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px; 
+    margin-left:60px;
+    height:200px;
+    width:600px;  
+        }
+.man-working-out-gym{
+    background: url("../images/man_working_out_gym.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px; 
+    margin-left:60px;
+    height:200px;
+    width:600px;  
+      
+}
+
+.gym-desc{
+    margin-top: 20px; 
+    margin-left:60px;
+    margin-right:100px;
+}
+
+/* ---------------------Gym-------------------------------------*/
 footer{
     height: 100px;
 }

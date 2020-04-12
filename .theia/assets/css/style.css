@@ -14,7 +14,7 @@ body{
     top: 20px; 
     left:60px;
     height:200px;
-    width:600px;  
+    width:500px;  
         }
 .pic {
     background: url("../images/gym.png");
@@ -93,63 +93,36 @@ ul li a{
 .classes-info{
     height:80px;
     }
-.classes-heading-desc{
-    margin-top:80px;
-    margin-left:100px;
-    }
 .left-desc{
-    margin-top:50px;
-    width:50%;
+    margin-top:30px;
+    width:80%;
     float:left;
-}
+   }
 .left-desc li{
+    margin-top:0px;
     margin-left: 100px;
     text-align:left;
-    letter-spacing: 2px;
-}
-.right-desc{
-    width:50%;
-    float:right;
- }
-.right-desc li{
-    text-align:left;
-    margin-right: 100px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 /* ---------------------CLASSES-------------------------------------*/
-/--------------------------Classes Images----------------------------*/
-
-/*
-.male-swimming{
-    float:right;
-    background: url("../images/male_swimming.png");
-    max-width:500px;
-    max-height:500px;
-    width:100%;
-    height:auto;
-    }
-    */
-.pool{
-    background: url("../images/swimming.png");
-    max-width:500px;
-    max-height:500px;
-    width:100%;
-    height:auto;
-    margin-left:200px;
-          }
+/*--------------------------Classes Images----------------------------*/
 
 .kids{
     background: url("../images/KIDS-small.png");
-    max-width:500px;
-    max-height:500px;
-    width:100%;
-    height:auto;
-     margin-left:200px;
-          }
-/--------------------------Classes Images----------------------------*/
+    width:700px;
+    height:300px;
+    margin-left:100px;
+    margin-top:20px;
+        }
+.woman{
+    background: url("../images/classes_woman_pool.png");
+    width:700px;
+    height:300px;
+    margin-left:100px;
+    margin-top:20px;
+    }
 
-
-
+/*--------------------------Classes Images----------------------------*/
 
 /* --------------------------Membership----------------------------*/
 .mem-settings{
@@ -173,14 +146,20 @@ ul li a{
    margin-right:100px;
 }
 
-/--------------------------Membership----------------------------*/
+/*--------------------------Membership----------------------------*/
 
-/--------------------------Timetable----------------------------*/
+/*--------------------------Timetable----------------------------*/
+
+.timetable-head{
+    margin-top: 0px;
+}
+
  table {
-    margin-left:100px;
+  margin-left:100px;
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 20%%;
+  width: 20%;
+  margin-right:100px;
 }
 
 td, th {
@@ -192,39 +171,59 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-/--------------------------Timetable----------------------------*/
+/*--------------------------Timetable----------------------------*/
 
 
 /* ---------------------Gym-------------------------------------*/
 
-.man-running-gym{
-    background: url("../images/man_running_gym.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px; 
-    margin-left:60px;
-    height:200px;
-    width:600px;  
-        }
 .man-working-out-gym{
     background: url("../images/man_working_out_gym.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 20px; 
-    margin-left:60px;
-    height:200px;
-    width:600px;  
-      
+    margin-left:80px;
+    height:400px;
+    width:800px;  
 }
-
+.man-running-gym{
+    background: url("../images/man_running_gym.png");
+    margin-left:80px;
+    height:400px;
+    width:800px;  
+}
 .gym-desc{
     margin-top: 20px; 
     margin-left:60px;
     margin-right:100px;
+    letter-spacing: 1px;
 }
+/*--------------------------Pool----------------------------*/
+.pool_info{
+    margin-left:100px;
+}
+/*--------------------------Pool images----------------------------*/
 
+.jacussi{
+    background: url("../images/jacussi.png");
+    width:300px;
+    height:300px;
+    margin-left:100px;
+    margin-top:20px;
+        }
+        .sauna{
+    background: url("../images/sauna.png");
+    width:300px;
+    height:300px;
+    margin-left:100px;
+    margin-top:20px;
+    width:auto;
+    height:auto;
+        }
+.swim{
+    background: url("../images/male_swimming.png");
+    width:300px;
+    height:300px;
+    margin-left:100px;
+    margin-top:20px;
+    }
+/*--------------------------Pool----------------------------*/
 /* ---------------------Gym-------------------------------------*/
 footer{
     height: 100px;

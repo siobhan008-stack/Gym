@@ -91,10 +91,11 @@ ul li a{
 }
 /* ---------------------CLASSES-------------------------------------*/
 .classes-info{
-    height:100px;
+    height:80px;
     }
 .classes-heading-desc{
     margin-top:80px;
+    letter-spacing:4px;
    }
 .left-desc{
     margin-top:50px;
@@ -117,15 +118,15 @@ ul li a{
 }
 /* ---------------------CLASSES-------------------------------------*/
 /--------------------------Classes Images----------------------------*/
-.image-area{
-    margin-left:0px;
-    padding:0px;
-    max-width:800px;
-    max-height:300px;
-    width: 800px;
-    height:300px;
-}
 
+.male-swimming{
+    float:right;
+    background: url("../images/male_swimming.png");
+    max-width:500px;
+    max-height:500px;
+    width:100%;
+    height:auto;
+    }
 .pool{
     background: url("../images/swimming.png");
     max-width:500px;
@@ -133,7 +134,14 @@ ul li a{
     width:100%;
     height:auto;
           }
-    
+
+.kids{
+    background: url("../images/KIDS-small.png");
+    max-width:500px;
+    max-height:500px;
+    width:100%;
+    height:auto;
+          }
 /--------------------------Classes Images----------------------------*/
 
 /* ---------------------Footer-------------------------------------*/

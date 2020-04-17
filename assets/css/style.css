@@ -1,3 +1,4 @@
+/*------------------------------Index /Home Page --------------------------*/
 header{
     margin:0;
 }
@@ -30,12 +31,7 @@ body{
     width:1200px;
     margin-left:100px;
         }
-
-        /*
-.swimmer {
-        background: url("../images/swimmer2.png");
-}
-*/
+/*-------------------------------Pictures--------------------------*/
 #menu{
     /* margin-left:600px; */
     margin-right:100px;
@@ -48,6 +44,10 @@ body{
     font-weight:450;
         }
 
+button p{
+    vertical-align:middle;
+    color:green;
+}
 #menu li{
     float:right;
     margin-right:25px;
@@ -63,13 +63,13 @@ ul li a{
 
 .heading h4 {
     margin-top:50px;
-    margin-left: 100px;
+    margin-left: 50px;
     font-weight:500;
     margin-bottom:40px;
     }
 
 .heading h5{
-    margin-left:150px;
+    margin-left:50px;
     font-weight:400;
     font-size:20px;
     letter-spacing:1px;
@@ -87,7 +87,7 @@ ul li a{
    padding: 20px 0 0 10px;
    text-align: center;
    margin: 2px;
-   bottom-margin:20px;
+   margin-bottom:20px;
     }
 
    div h3{
@@ -99,35 +99,48 @@ ul li a{
     padding: 5%;
     color: black;
 }
+/*------------------------------Index /Home Page --------------------------*/
 /* ---------------------CLASSES-------------------------------------*/
 .classes-info{
     height:80px;
     }
 .left-desc{
     margin-top:30px;
-    width:80%;
-    float:left;
-   }
+    width 50%;
+     }
 .left-desc li{
     margin-top:0px;
     margin-left: 100px;
     text-align:left;
     letter-spacing: 0px;
+    width:75%;
+}
+.right-desc{
+    margin-top:30px;
+    width 50%;
+     }
+.right-desc li{
+    margin-top:0px;
+    margin-left: 50px;
+    text-align:left;
+    letter-spacing: 0px;
+    width:75%;
 }
 /* ---------------------CLASSES-------------------------------------*/
 /*--------------------------Classes Images----------------------------*/
-
 .kids{
     background: url("../images/kids.png");
     width:700px;
-    height:300px;
+    height:350px;
     margin-left:100px;
-    margin-top:20px;
+    margin-right:100px;
+    margin-top:0px;
+    
         }
 .woman{
     background: url("../images/classes_woman_pool.png");
     width:700px;
-    height:300px;
+    height:350px;
     margin-left:100px;
     margin-top:20px;
     }
@@ -136,20 +149,20 @@ ul li a{
 
 /* --------------------------Membership----------------------------*/
 .mem-settings{
-   margin-top:200px;
+   margin-top:50px;
 }
 
 .mem-header{
-  margin-left:100px;
+   margin-left:100px;
    margin-right:100px;
    font-weight:600;
     
 }
 .mem-price{
-    margin-left:100px;
+   margin-left:100px;
    margin-right:100px;
-   color: green;  
-      }
+   color:green;
+            }
 
 .mem-info{
    margin-left:100px;
@@ -186,42 +199,57 @@ tr:nth-child(even) {
 
 /* ---------------------Gym-------------------------------------*/
 
-.man-working-out-gym{
+ .man-working-out-gym{
     background: url("../images/man_working_out_gym.png");
     margin-left:80px;
-    height:400px;
-    width:500px;  
-}
+    width:700px;  
+    height:350px;
+    /*    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain; */
+} 
+
 .man-running-gym{
     background: url("../images/man_running_gym.png");
-    margin-left:80px;
-    height:400px;
-    width:500px;  
-}
+    margin-left:50px;
+    width:700px;  
+    height:350px;
+    /*
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain; */
+       }
 .gym-desc{
-    margin-top: 20px; 
-    margin-left:60px;
-    margin-right:100px;
+    margin: 40px 100px 50px 60px; 
     letter-spacing: 0px;
 }
 /*--------------------------Pool----------------------------*/
 
+
 .pool-text-desc{
-    margin-left:100px;
-    margin-top:50x;
-    }
+    /*
+    margin-top:30px;
+    margin-right :100px;
+    margin-bottom: 30px;
+   */
+    margin-left: 100px;
+       }
 
 .pool-info{
-    margin-left:10px;
-    margin-right:100px;  
+    margin-top:30px;
+    margin-right :100px;
+    margin-bottom: 30px;
+    margin-left: 100px;
 }
-
+*/
 /*--------------------------Pool images----------------------------*/
 .pool_area{
     background: url("../images/pool_area.png");
-    width:900px;
+    width:700px;
     height:300px;
-    margin-left:300px; }
+   /* margin:40px 0px 20px 130px; */
+       }
 
 .jacussi{
     background: url("../images/jacussi.png");
@@ -243,14 +271,17 @@ tr:nth-child(even) {
 /* ---------------------Footer-------------------------------------*/
 footer{
     height: 100px;
-}
+    font-size:150%;
+    }
 list-inline{
     display:inline;
 }
-
+.social-links{
+font-weight:400;
+}
 /* ---------------------Footer-------------------------------------*/
 
-/* ---------------------media sizes----------------------------------*/
+/* ---------------------Media size large Phone----------------------------------*/
 @media screen and (max-width: 800px) {
 
 .logo{
@@ -268,7 +299,7 @@ list-inline{
 .bottom-detail{
     margin-top:20px;
 }
-    .bottom-detail div{
+.bottom-detail div{
         width:100%;
         clear:both;
         height:150%;
@@ -277,7 +308,7 @@ list-inline{
         border-color:white;
         padding:0px;
         margin-right:10px;
-        }
+}
 
 .list-inline{
     clear:both;
@@ -289,24 +320,25 @@ list-inline a{
     margin: 0 auto;
 }
 .man-working-out-gym{
-width:100%;
+    width:100%;
     margin-left:0px;
 }
 .man-running-gym{
-    width:100%;
+   width:100%;
     margin-left:0px;
     }
-
    .kids{
        width:100%;
    }
-
    .woman{
        width:100%;
    }
-   .left-desc{
-       margin:5px;
-          }
+  .left-desc{
+    margin:5px;
+    }
+
+.left-desc li{
+    margin-left:100px;
 }
 .pool-text-desc{
     margin:40px;
@@ -316,14 +348,27 @@ width:100%;
     margin-top:0px;}
 
 .pool_area{
-    margin-left:40px;
+    margin-left:0px;
     width:100%;
 }
   
 .social-links{
     text-align:center;
+    }
+
+    .bottom-detail{
+         margin-top:0px 0px 0px 20px;
+    }
 }
-}
-/* ---------------------media sizes----------------------------------*/
+/* ---------------------media size Large Phone----------------------------------*/
 
 
+/* ---------------------media size Tablet----------------------------------*/
+@media screen and (max-width: 1393px){
+ 
+.pool-area{
+    margin-left:40px;
+}
+}
+
+/* ---------------------media size Tablet----------------------------------*/

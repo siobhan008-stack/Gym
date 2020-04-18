@@ -228,31 +228,25 @@ tr:nth-child(even) {
 
 
 .pool-text-desc{
-    /*
     margin-top:30px;
-    margin-right :100px;
     margin-bottom: 30px;
-   */
-    margin-left: 100px;
+    margin-left: 80px;
        }
 
 .pool-info{
-    margin-top:30px;
-    margin-right :100px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-}
-*/
+    margin-right:150px;
+    }
+
 /*--------------------------Pool images----------------------------*/
-.pool_area{
+.pool-area{
     background: url("../images/pool_area.png");
-    width:700px;
+    width:400px;
     height:300px;
-   /* margin:40px 0px 20px 130px; */
-       }
+    margin-left:100px;
+    }
 
 .jacussi{
-    background: url("../images/jacussi.png");
+    background: url("../images/jacussi_new.png");
     width:400px;
     height:300px;
         }
@@ -372,3 +366,23 @@ list-inline a{
 }
 
 /* ---------------------media size Tablet----------------------------------*/
+
+/* ---------------------media size Medium Screen----------------------------------*/
+
+@media screen and (max-width: 1280px) {
+.pool-area{
+    margin-left:100px;
+    margin-top:0px;
+}
+.gym-desc{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+/* ---------------------media size Medium Screen----------------------------------*/
+
+
+/* ---------------------media size Large Screen----------------------------------*/
+
+/* ---------------------media size XLarge Screen----------------------------------*/
+
+/* ---------------------media size XLarge Screen----------------------------------*/

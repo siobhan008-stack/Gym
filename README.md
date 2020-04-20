@@ -72,10 +72,10 @@ There are some responsive display issues which I would like to fix but didn't ha
 Otherwise menus should display correct pages.
 
 ## Deployment:
-1. The website is hosted on Github Pages.
-2. To deploy this project, I went to github.com, logged in and went to my repositories, where I found my Gym project.
-3. When I clicked into the "Gym" project, and Clicked on the Settings button, scrolled down to Github Pages, under Source I selected master branch.
-4. The project then became available at the following link: https://siobhan008-stack.github.io/Gym/
+- The website is hosted on Github Pages.
+- To deploy this project, I went to github.com, logged in and went to my repositories, where I found my Gym project.
+- When I clicked into the "Gym" project, and Clicked on the Settings button, scrolled down to Github Pages, under Source I selected master branch.
+- The project then became available at the following link: https://siobhan008-stack.github.io/Gym/
 
 ## Difference between deployed and development versions:
 Should not be any differences.
@@ -85,7 +85,7 @@ https://f98105b5-737a-482b-9ce4-885c9fe42297.ws-eu01.gitpod.io/
 In the bottom pane in the terminal window where it shows /workspace/gym if the webserver isn't started you can start the web server by typing python3 -m http.server
 At the prompt which appears, click "Make Public" and then Open Browser, and the website will display in a new browser window.
 
-## MEDIA:
+## Media:
 ### Text:
 The text for the website was copied largely from this website:
 https://www.clubvitae.com/liffeyvalley/

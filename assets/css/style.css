@@ -102,7 +102,7 @@ ul li a{
      }
 .left-desc li{
     margin-top:0px;
-    margin-left: 100px;
+    margin-left: 10%;
     text-align:left;
     letter-spacing: 0px;
     width:75%;
@@ -113,22 +113,13 @@ ul li a{
      }
 .right-desc li{
     margin-top:0px;
-    margin-left: 20px;
+    margin-right:40%;
     text-align:left;
     letter-spacing: 0px;
     width:75%;
 }
 /* ---------------------CLASSES-------------------------------------*/
-/*--------------------------Classes Images----------------------------*/
-.kids{
-    background: url("../images/kids.png");
-    width:700px;
-    height:350px;
-    margin-left:100px;
-    margin-right:100px;
-    margin-top:0px;
-    
-        }
+
 .women{
     background: url("../images/women_working_out.png");
     width:700px;
@@ -137,7 +128,17 @@ ul li a{
     margin-right:100px; 
     margin-top:20px;
     }
-
+/*--------------------------Classes Images----------------------------*/
+.kids{
+    background: url("../images/kids.png");
+  /*  background-repeat:no-repeat; */
+    width:700px;
+    height:350px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:0px;
+    
+        }
 /*--------------------------Classes Images----------------------------*/
 
 /* --------------------------Membership----------------------------*/
@@ -200,15 +201,11 @@ tr:nth-child(even) {
     margin-left:80px;
     width:700px;  
     height:350px;
-    /*    overflow:hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:contain; */
 } 
 
 .man-running-gym{
-    background: url("../images/man_running-2.png");
-    margin-left:50px;
+    background: url("../images/man_running_gym.png");
+    margin-left:80px;
     width:700px;  
     height:350px;
 }
@@ -278,15 +275,7 @@ footer{
 /* ---------------------Footer-------------------------------------*/
 
 /* ---------------------Media sizes begin----------------------------------*/
-/*
-@media screen and (max-width: 990px) {
-    .social-links{
-        float:none;
-        clear:both;
-    }
-}
- */  
-/* ---------------------Media sizes begin----------------------------------*/
+
 
 @media screen and (max-width: 500px) {
 .pic{
@@ -296,6 +285,7 @@ footer{
 .heading{
     margin-left:100px;
 }
+.
 }
 /* ---------------------Media sizes----------------------------------*/
 @media screen and (max-width: 768px) {
@@ -323,6 +313,7 @@ margin-top:0px;
     margin-top:1px;
     margin-left:0px;
 }
+
 .man-working-out-gym{
     width:100%;
     margin-left:0px;
@@ -331,6 +322,7 @@ margin-top:0px;
    width:100%;
     margin-left:0px;
     }
+  
  .kids{
        width:100%;
        margin-left:0px;
@@ -339,16 +331,19 @@ margin-top:0px;
        width:100%;
        margin-left:0px;
    }
-  .left-desc{
-    margin:5px;
+.left-desc{
+    margin-left:1%;
     }
 
 .left-desc li{
-    margin-left:5px;
+    margin-left:10%;
     margin-right:2px;
 }
+.right-desc{
+    margin-left:1%;
+    }
 .right-desc li{
-    margin-left:5px;
+    margin-left:10%;
     margin-right:2px;
 }
 .pool-text-desc{
@@ -359,29 +354,78 @@ margin-top:0px;
     width:100%;
 }
 .bottom-detail{
-         margin-top:0px 0px 0px 20px;
+margin-top:0px 0px 0px 20px;
     }
 social-networks{
     clear:both;
 }
 }
 
-/* ---------------------media screen sizes ----------------------------------*/
+/* ---------------------Media sizes----------------------------------*/
 
+@media screen and (max-width: 980px) {
+
+.man-working-out{
+    margin-left:0px;
+}
+}  
+/* ---------------------Media sizes begin----------------------------------*/
+@media screen and (max-width: 1160px) {
+   .heading{
+       margin-top:0px;
+   }
+.right-desc li{
+    margin-left:100px;
+    }   
+    }
+
+/* ---------------------media screen sizes ----------------------------------*/
+@media screen and (max-width: 1280px) {
+ #menu{
+        margin-top:20px;
+    }
+.pool-area{
+    margin-top:0px;
+    margin-left:100px;
+}
+.gym-desc{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+/*
+.left-desc{
+    margin-left:1%;
+    }
+.right-desc{
+    margin-left:1%;
+    padding-left:120px;
+}
+*/
+.jacussi{
+    width:100%;}
+}
+
+bottom-detail div{
+    width:300px; 
+}
+}
+/* ---------------------media size sizes----------------------------------*/
 @media screen and (max-width: 1440px){
  
 .pool-area{
     margin-left:40px;
 }
+/* social links blocked with width 300px, but fixed by flexwrap:nowrap on the row */
+
 .bottom-detail div{
         width:20%;
-        /*height:200px;*/
+        height:300px;
         border-style:solid;
         border-bottom-width:3px;
         border-color:white;
         padding:0px;
         margin-right:10px;
-}
+      }
 .gym-detail{
     height:400px;
 }
@@ -391,42 +435,3 @@ social-networks{
 }
 
 /* ---------------------Media sizes----------------------------------*/
-@media screen and (max-width: 1280px) {
-    #menu{
-        margin-top:20px;
-    }
-.pool-area{
-    margin-left:100px;
-    margin-top:0px;
-}
-.gym-desc{
-    margin-top:10px;
-    margin-bottom:20px;
-}
-.left-desc{
-    margin-left:0px;
-}
-.right-desc{
-    margin-left:0px;
-}
-.right-desc{
-    margin-left:100px;
-}
-/* ---------------------Media sizes----------------------------------*/
-@media screen and (max-width: 1016px) {
-   
-    .social-links{
-        clear:none;
-        float:both;
-    }
-
-    .social-links li{
-        display: inline;
-        margin-left:200px; */
-       }
-
-       div .gym-detail{
-           height:250px;
-       }
-    }
-/* ---------------------media size sizes----------------------------------*/

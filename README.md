@@ -21,20 +21,22 @@ Users would be typically interested in:
 - Fitness classes
 - Working out in the gym
 - Personal fitness training programs
-- Relaxing via the pool sauna, jacussi, steam room. 
+- Swimming
 - Swimming lessons in the pool
+- Relaxing in the sauna, jacussi, steam room 
+
 
 You can find screenshots of the website in the assets/project directory and mockups will be added too.
 
 ## Features:
 Home menu page (Index.html): This provides our address, contact details, opening hours, images and social media links along with our key features.
-Classes menu page (Classes.html). This  displays details on the classes we offer and descriptions of what each class is good for.
-Pool menu page (Pool.html) At the top which displays details on the Pool along with pictures of the Sauna, Pool Jacussi and more images.
-Timetable menu page (Timetable.html) This displays details on what classes are on at which times.
 Membership menu page (Membership.html) This displays details on the various membership options and prices for each.
+Pool menu page (Pool.html) This page displays details on the Pool along with pictures of the Sauna, Pool, Jacussi and Steam Room.
 Gym (Gym.html). This details information on what equipment is available in our gym and some photos.
+Classes menu page (Classes.html). This displays details on the classes we offer and descriptions of what each class is good for.
+Timetable menu page (Timetable.html) This displays details on what classes are on at which times.
 
-**Note** I purposely didn't keep a consisent design on the pool/gym /classes pages to showcase different placings of text and images.
+**Note** I purposely didn't keep a consisent design on the pool/gym /classes pages in an effort to show ability around different placings of text and images and responsive design.
 
 ## Features left  to be Implemented:
 - Add a download button on the timetable page so someone can have the schedule for the current month
@@ -63,10 +65,11 @@ Classes: Navigated to all the links off the top Menu and ensure that the relevan
 Timetable: Navigated to all the links off the top Menu and ensure that the relevant pages displayed correctly.
 Checked the menu option on mobile brought me to all the correct pages.
 Checked the responsiveness at all breakpoints and tried to improve as much as possible.
+Note: Testing was completed on the Chrome browser.
 
 ## Bugs:
 There are some responsive display issues which I would like to fix but didn't have time.
-The menu options could display better on a tablet.
+Otherwise menus should display correct pages.
 
 ## Deployment:
 1. The website is hosted on Github Pages.
@@ -95,6 +98,6 @@ Other images were pulled from   https://www.clubvitae.com/liffeyvalley/ and http
 Obviously for a live website I would not use these images
 
 ## Acknowledgements:
-1. I received inspiration for this project from gym websites.
-2. Credit also to my mentor Jonathan Munz for much coding inspiration, review and enhancement ideas for my website.
-3. Big thanks to the tutors also for assistance during the project and to Kevin as I had missed to include a script menu from one of my pages which was preventing the membership menu to function.
+- I received inspiration for this project from various gym websites.
+- Credit due to my mentor Jonathan Munz for much coding inspiration, review and enhancement ideas for my website.
+- Big thanks to the tutors also for assistance during the project and to Kevin as I had missed to include a script menu from one of my pages which was preventing the membership menu to function.

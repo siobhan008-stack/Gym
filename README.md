@@ -101,3 +101,6 @@ Obviously for a live website I would not use these images
 - I received inspiration for this project from various gym websites.
 - Credit due to my mentor Jonathan Munz for much coding inspiration, review and enhancement ideas for my website.
 - Big thanks to the tutors also for assistance during the project and to Kevin as I had missed to include a script menu from one of my pages which was preventing the membership menu to function.
+
+## Credits:
+To the various websites I pulled my images from just for the purposes of the project

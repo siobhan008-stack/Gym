@@ -26,8 +26,8 @@ Users would be typically interested in:
 - Relaxing in the sauna, jacussi, steam room 
 
 
-You can find screenshots of the website in the assets/project directory and mockups will be added too.
-
+You can find mockups and screenshots of the website in the assets/project directory.
+.
 ## Features:
 Home menu page (Index.html): This provides our address, contact details, opening hours, images and social media links along with our key features.
 Membership menu page (Membership.html) This displays details on the various membership options and prices for each.
@@ -35,8 +35,7 @@ Pool menu page (Pool.html) This page displays details on the Pool along with pic
 Gym (Gym.html). This details information on what equipment is available in our gym and some photos.
 Classes menu page (Classes.html). This displays details on the classes we offer and descriptions of what each class is good for.
 Timetable menu page (Timetable.html) This displays details on what classes are on at which times.
-
-**Note** I purposely didn't keep a consisent design on the pool/gym /classes pages in an effort to show ability around different placings of text and images and responsive design.
+I purposely didn't keep a consisent design on the pool/gym /classes pages in an effort to show ability around different placings of text and images and responsive design.
 
 ## Features left  to be Implemented:
 - Add a download button on the timetable page so someone can have the schedule for the current month
@@ -104,3 +103,6 @@ Obviously for a live website I would not use these images
 
 ## Credits:
 To the various websites I pulled my images from just for the purposes of the project
+
+## Note:
+Unfortunately I missed out on the slack channel user-centric-frontend. I was just looking at the github channel so I think I missed out on a lot of general help. As a result I think my website is a lot more basic than it could be. But if I don't submit now, I'm afraid I might not finish the course.

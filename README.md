@@ -104,7 +104,8 @@ For a live website no copyright images would be used.
 - Credit due to my mentor Jonathan Munz for much coding inspiration, review and enhancement ideas for my website!
 - Big thanks also to the tutors also for assistance during the project. 
 
-Unfortunately I missed out on the slack channel #user-centric-frontend. I was just looking at the github channel so I think I missed out on a lot of general help. As a result I think my website is a lot more basic than it could be. However I feel if I don't submit now, I'm afraid I might not finish the course.
+Unfortunately I missed out on the slack channel #user-centric-frontend. I was just looking at the github channel so I think I missed out on a lot of general help. As a result I think my website is a lot more basic than it could be. However I feel if I don't submit now, I'm afraid I might not finish the course.I also spent a huge amount of time trying to make modifications for different screen sizes (not I have six pages). My issue was trying to understand how to view each bootstrap size. For eg. I would use chrome's dev tools to view on an iphone6 and that view would appear differently to my own iphone hardware, and at what breakpoint to code and view.
+Tim finally explained this to me, however I had a lot of wasted time prior to this on this.
 
 ## Credits:
 To the various websites I pulled my images from just for the purposes of the project.

@@ -7,7 +7,7 @@ Are you interested in improving your fitness and health? At Energie gym, we have
  -   Fully qualified and experienced gym instructors to provide expert advice and support.
  -   20x8m deck level heated indoor swimming pool with lane swimming facilities.
  -   1.4m depth throughout so non-swimmers can feel comfortable.
- -   8x5m Children’s play pool with a 0.5m depth
+ -   8x5m Children’s play pool with a 0.5m depth.
   -  Purpose built fitness studio for our large and varied selection of gym classes including indoor cycling, BodyPump, BodyAttack, BodyBalance and CXWorx classes. See www.lesmills.com for more info.
  -   Unisex Sauna, Steam room and Jacuzzi.
 
@@ -69,7 +69,7 @@ Note: Testing was completed on the Chrome browser.
 
 ## Bugs:
 There are some responsive display issues which I would like to fix but didn't have time.
-Menus should all display correct pages.
+Menus should all display correct pages however.
 
 ## Deployment:
 - The website is hosted on Github Pages.
@@ -83,16 +83,17 @@ Should not be any differences.
 ## Links to my project:
 - https://f98105b5-737a-482b-9ce4-885c9fe42297.ws-eu01.gitpod.io/
 - https://siobhan008-stack.github.io/Gym/
+
 In the bottom pane in the terminal window where it shows /workspace/gym if the webserver isn't started you can start the web server by typing python3 -m http.server
 At the prompt which appears, click "Make Public" and then "Open Browser", and the website will display in a new browser window.
 
 ## Media:
 ### Text:
 The text for the website was copied largely from this website:
-https://www.clubvitae.com/liffeyvalley/
+https://www.clubvitae.com/liffeyvalley/.
 
 ### Images:
-I used the logo from here: https://www.energiefitness.com/
+I used the logo from here: https://www.energiefitness.com/.
 In an effort to try to get some gym images I googled images from the web and used them.
 Other images were pulled from   https://www.clubvitae.com/liffeyvalley/ and https://westwood.ie/.
 Some of the images are copyrighted but were just used for the purposes of this project. 
@@ -102,7 +103,8 @@ For a live website no copyright images would be used.
 - I received inspiration for this project from various gym websites.
 - Credit due to my mentor Jonathan Munz for much coding inspiration, review and enhancement ideas for my website!
 - Big thanks also to the tutors also for assistance during the project. 
- - Unfortunately I missed out on the slack channel #user-centric-frontend. I was just looking at the github channel so I think I missed out on a lot of general help. As a result I think my website is a lot more basic than it could be. However I feel if I don't submit now, I'm afraid I might not finish the course.
+
+Unfortunately I missed out on the slack channel #user-centric-frontend. I was just looking at the github channel so I think I missed out on a lot of general help. As a result I think my website is a lot more basic than it could be. However I feel if I don't submit now, I'm afraid I might not finish the course.
 
 ## Credits:
 To the various websites I pulled my images from just for the purposes of the project.

@@ -15,16 +15,24 @@ Our easy to use website showcases what we have on offer and our competitive pric
 Improve your fitness and meet some new people. As we say its 'Where you belong'.
 
 ## UX:
-Our gym is open to everyone. We have membership deails families, individuals, couples, children, students.
+As the owner of the gym I would like people to view the website and want to contact us to join.
 
-Users of this website would be typically interested in:
-- Fitness classes
-- Working out in the gym
-- Personal fitness training programs
-- Swimming in the pool
-- Swimming lessons
-- Relaxing in the sauna, jacussi, steam room 
+User stories:
+- As a user I would like to find out information about Fitness classes
+- As a user I would like information about the gym and photos
+- As a user I would like to find out if there are personal fitness training programs
+- As a user I would like to find some the swimming pool
+- As a user I would like to find out if there are swimming lessons on offer.
+- As a user I would like to find out if there is a sauna, jacussi, steam room 
+- As a user I would like to find out the gym's location
+- As a user I would like to find out contact information (phone number/email/social media links)
+- As a user I would like to find out gym opening hours
+- As a user I would like to find out what classes are on offer and information about them
+- As a user I would like to find out membership prices
+- As a user I would like to see a class timetable if its available
 
+
+![](project/Mockups.docx)
 You can find mockups and screenshots of the website in the assets/project directory.
 Note: I purposely didn't keep a consisent design on the pool/gym/classes pages in an effort to show ability around different placings of text and images and responsive design.
 

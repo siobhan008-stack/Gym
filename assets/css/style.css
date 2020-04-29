@@ -187,6 +187,7 @@ tr:nth-child(even) {
 }
 
 .tt-cells{
+    
  margin-left:0px;
  margin-right:5px;
  margin-top:5px;
@@ -197,29 +198,26 @@ tr:nth-child(even) {
 
 /* ---------------------Gym-------------------------------------*/
 
- .man-working-out-gym{
-    background: url("../images/man_working_out_gym.png");
-    background-repeat: no-repeat;
-    margin-left:80px;
-    width:700px;  
-    height:350px;
-} 
+.gym-wrapper{
+        }
+
+ .man-working-out{
+    width:150%;
+    margin: 0 auto;
+    } 
 
 .man-running-gym{
-    background: url("../images/man_running_gym.png");
-    margin-left:80px;
-    width:700px;  
-    height:350px;
-    max-width:100%;
-    max-height:100%;
-}
+      
+    width:150%;
+    margin: 0 auto;
+          }
 
 .gym-desc{
     margin-top:40px;
     margin-bottom:40px;
     margin-left:80px;
     margin-right:100px;
-}
+   }
 
 
 /*--------------------------Pool----------------------------*/
@@ -283,8 +281,19 @@ footer{
 }
 /* ---------------------Footer-------------------------------------*/
 
-/* ---------------------Media sizes begin----------------------------------*/
+/* ---------------------Media sizes begin--------------------------------*/
+/*
+@media screen and (max-width: 360px) {
 
+.women{
+margin-left:0px;
+}
+.kids{
+    margin-left:0px;
+}
+}
+*/
+/* ---------------------Media sizes-------------------------------------*/  
 @media screen and (max-width: 576px) {
 .pic{
     margin-left:0px;
@@ -332,12 +341,7 @@ margin-top:0px;
     margin-left:0px;
 }
 
-.man-working-out-gym{
-    width:100%;
-    margin-left:0px;
-}
 .man-running-gym{
-   width:100%;
     margin-left:0px;
     }
   
@@ -366,9 +370,7 @@ social-networks{
 
 @media screen and (max-width: 960px) {
 
-.man-working-out{
-    margin-left:0px;
-}
+
 h3 {
     margin-top:15px;
     }
@@ -413,11 +415,12 @@ h4{
     margin-top:0px;
     margin-left:100px;
 }
-
+/*
 .gym-desc{
     margin-top:10px;
     margin-bottom:20px;
     }
+    */
 .jacussi{
     width:100%;}
 }

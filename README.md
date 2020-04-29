@@ -31,8 +31,7 @@ User stories:
 - As a user I would like to find out membership prices
 - As a user I would like to see a class timetable if its available
 
-
-![](project/Mockups.docx)
+![](assets/project/Mockups.docx)
 You can find mockups and screenshots of the website in the assets/project directory.
 Note: I purposely didn't keep a consisent design on the pool/gym/classes pages in an effort to show ability around different placings of text and images and responsive design.
 

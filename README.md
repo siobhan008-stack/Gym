@@ -115,5 +115,9 @@ Unfortunately I missed out on the slack channel #user-centric-frontend. I was ju
 Tim finally explained this to me, however I had a lot of wasted time prior to this, on this.
 
 ## Credits:
-To the various websites I pulled my images from just for the purposes of the project.
+To the various websites I pulled my images and text from just for the purposes of the project.
+Including:
+- https://www.thebodywiseclinic.ie/beginners-guide-to-joining-a-gym/
+- https://www.energiefitness.com/
+- https://www.clubvitae.com/liffeyvalley/
 
